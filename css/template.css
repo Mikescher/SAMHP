@@ -1,0 +1,293 @@
+/**
+ * @author      SAM-Softwaredevelopment
+ * @link        http://sam-dev.de
+ * @email       contact@sam-dev.de
+ * @copyright   SAM-Softwaredevelopment
+ *
+ * HTML5 Mustertemplate
+ * Copyright (C) 2014 SAM-Softwaredevelopment
+ *
+**/
+
+/* ************** ALLGEMEINE FORMATIERUNGEN *********************
+*****************************************************************/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body{
+  background: #FFF;
+  height: 1050px;
+}
+
+/* ************************** TYPO ****************************
+*****************************************************************/
+
+ body{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+p{
+	margin-top: 20px;
+}
+
+
+#artikeltext p:first-child{
+	margin-top: 0px;
+}
+
+h1 {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 40px;
+	text-align:center;
+	font-weight: 700;
+	line-height: 180px;
+	color: #42A4FF;
+	text-shadow: 1px 1px 0px #000000;
+}
+
+h2 {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #42A4FF;
+	text-shadow: 1px 1px 0px #000000;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #3170AA;
+	text-shadow: 1px 1px 0px #000000;
+	text-align: center;
+}
+
+
+
+#artikeltext{
+	
+	border-bottom: 5px solid #CECED1;
+    
+	margin-top: 20px;
+	line-height: 18px;
+	
+	padding: 10px;
+    padding-top: 5px;
+	
+	text-align: justify;
+   
+    margin: 15px;
+}
+#apptext{
+	margin-top: 20px;
+	line-height: 18px;
+	
+	padding: 10px;
+    padding-top: 5px;
+	
+	text-align: justify;
+   
+    margin: 15px;
+}
+#applink{
+	float: middle;
+}
+
+#middletext{
+	border-bottom: 5px solid #CECED1;
+    
+	margin-top: 20px;
+	line-height: 18px;
+	
+	padding: 10px;
+    padding-top: 5px;
+	
+	text-align: center;
+	font-size:18px;
+   
+    margin: 20px;
+}
+
+
+
+footer{
+	text-align: center;
+	line-height: 43px;
+	font-size: 10px;
+}
+	
+
+
+/* ************************** LAYOUT ****************************
+*****************************************************************/
+
+#wrapper{
+  width: 100%;
+  margin: 0 auto;
+  min-height: 1050px;
+  height:auto !important;
+  height:1050px;
+  overflow: hidden !important; /* FF Scroll-leiste */ 
+  content: center;
+}
+
+#main-header{
+  width: 100%;
+  height:192px;
+  background: #333;
+  float:left;
+}
+
+#main-navigation{
+	width: 875px;
+	height: 42px;
+	margin: 0 auto;
+	text-align:center;
+	disyplay: block;
+	background: #333; /* Old browsers */
+
+
+
+	border-bottom: 1px solid #CECED1;
+}
+
+#headerbild{
+	background:url(../images/headerbild.png);
+	background-repeat:repeat;
+
+	width: 100%;
+	height: 150px;
+	float:center;
+}
+
+#content{
+
+	margin: 0 auto;	
+	width: 60%;
+	padding: 20px;
+	margin-top: 200px;
+	
+}
+
+#appcontent{
+	margin-bottom: 140px;
+}
+
+
+.content_element_image {
+    float:left;
+    width: 200px;
+	margin-right: 5px; 
+}
+.contentchoosebox_cvr {
+    height: 150px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    outline: none;
+
+    border-radius: 150px;
+    box-shadow: 0 0px 16px blue;
+}
+.content_team_image{
+	float:left;
+    height: 150px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    outline: none;
+
+    border-radius: 150px;
+    box-shadow: 0 0px 16px blue;
+}
+.content_follow_image{
+	margin-left: 20%;
+}
+
+#contentchoosebox_cvr_1:focus ~ #contentbox_1 { display:block; }
+
+
+#contentchoosebox_cvr_1:hover { box-shadow: 0 0px 24px 8px #000; }
+
+
+
+footer{
+	width: 100%;
+	height: 42px;
+	border-top: 1px solid #CDCDCD;
+	float:left;
+	color: #FFF;
+	background: #333;
+}
+	
+
+/* ************************** NAVIGATION ************************
+*****************************************************************/
+
+#main-navigation .menu{
+	
+	width: 100%;
+	list-style-type: none;
+	
+}
+
+#main-navigation .menu li a{
+	width: 173px;
+	height: 42px;
+
+	float:left;
+	
+	
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 42px;
+	text-align:center;
+	
+	
+	color: #42A4FF;
+	text-decoration: none;
+	
+	text-shadow: 1px 1px 0px #000000;
+	
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #666666;
+	
+	webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
+}
+
+
+#main-navigation .menu li:first-child a{
+  	border-left: none;
+	
+	width: 174px;
+}
+
+#main-navigation .menu li:last-child a{
+  	border-right: none;
+	width: 174px;
+}
+
+#main-navigation .menu li a:hover{
+	background-color: rgba(105, 99, 99, 0.62);
+	
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-ms-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;
+}
+
